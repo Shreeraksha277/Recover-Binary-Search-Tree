@@ -1,6 +1,6 @@
 class Solution {
     TreeNode first = null;
-    TreeNode second = null;
+     TreeNode second = null;
     TreeNode prev = new TreeNode(Integer.MIN_VALUE);
 
     public void recoverTree(TreeNode root) {
