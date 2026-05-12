@@ -3,7 +3,7 @@ class Solution {
      TreeNode second = null;
     TreeNode prev = new TreeNode(Integer.MIN_VALUE);
 
-    public void recoverTree(TreeNode root) {
+     public void recoverTree(TreeNode root) {
         inorder(root);
 
         // swap values
