@@ -1,7 +1,7 @@
 class Solution {
      TreeNode first = null;
      TreeNode second = null;
-    TreeNode prev = new TreeNode(Integer.MIN_VALUE);
+     TreeNode prev = new TreeNode(Integer.MIN_VALUE);
 
      public void recoverTree(TreeNode root) {
         inorder(root);
